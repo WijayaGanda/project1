@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="jenis_kelamin">jenis_kelamin
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Transgender</item>
+    </string-array>
+    <string name="app_name">project</string>
+</resources>
