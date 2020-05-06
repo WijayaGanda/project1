@@ -15,7 +15,7 @@
             android:textSize="25sp"
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
-            android:text="BIODATA DIRI"
+            android:text="BIODATA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <ImageView
@@ -49,12 +49,12 @@
                     android:textSize="20sp"
                     android:id="@+id/txtNama"
                     android:layout_weight="1"
-                    android:text="Wijaya Ganda"
+                    android:text="dummy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
-
             </LinearLayout>
+
             <LinearLayout
                 android:layout_margin="15dp"
                 android:orientation="horizontal"
@@ -64,30 +64,6 @@
                 <TextView
                     android:textSize="16dp"
                     android:layout_weight="2"
-                    android:text="NAMA BARU : "
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:textSize="20sp"
-                    android:id="@+id/txtnama"
-                    android:layout_weight="1"
-                    android:text="Wijaya Ganda"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_margin="15dp"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:textSize="14dp"
-                    android:layout_weight="2"
                     android:text="JENIS KELAMIN : "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -96,7 +72,7 @@
                     android:textSize="20sp"
                     android:id="@+id/txtkelamin"
                     android:layout_weight="1"
-                    android:text="LAKI_LAKI"
+                    android:text="dummy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -109,9 +85,9 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:layout_weight="2"
-                    android:text="INSTAGRAM : "
+                    android:text="EMAIl : "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -119,7 +95,7 @@
                     android:textSize="20sp"
                     android:id="@+id/txtemail"
                     android:layout_weight="1"
-                    android:text="wijayaganda_7"
+                    android:text="dummy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -142,7 +118,7 @@
                     android:textSize="20sp"
                     android:id="@+id/txttel"
                     android:layout_weight="1"
-                    android:text="081818455048"
+                    android:text="dummy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -165,41 +141,25 @@
                     android:textSize="20sp"
                     android:id="@+id/txtaddress"
                     android:layout_weight="1"
-                    android:text="Suwayuwo, Indonesia"
+                    android:text="dummy"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
             </LinearLayout>
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_edit"
+                android:text="EDIT NAMA"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:layout_margin="17dp"
-                    android:id="@+id/btn_ep"
-                    android:text="EDIT PROFIL"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <Button
-                    android:id="@+id/btn_pembuat"
-                    android:layout_marginTop="17dp"
-                    android:layout_marginLeft="0dp"
-                    android:text="PROFIL PEMBUAT"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-                <Button
-                    android:layout_margin="17dp"
-                    android:id="@+id/btn_dial"
-                    android:text="DIAL"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_dial"
+                android:text="TELEPON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
 
         </LinearLayout>
-
 
 
     </RelativeLayout>

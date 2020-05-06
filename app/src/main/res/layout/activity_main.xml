@@ -13,10 +13,9 @@
         tools:context=".MainActivity">
 
     <TextView
-        android:fontFamily="sans-serif-black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BIODATA DIRI"
+        android:text="Hello World!"
         android:textSize="20dp" />
 
     <EditText
@@ -25,18 +24,15 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-        <EditText
-            android:id="@+id/edtjenis"
-            android:hint="Jenis Kelamin"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+    <Spinner
+        android:entries="@array/jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
     <EditText
         android:id="@+id/edtemail"
-        android:hint="Instagram"
+        android:hint="Email"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -55,7 +51,7 @@
     <Button
         android:id="@+id/btnsubmit"
         android:layout_marginTop="30dp"
-        android:text="SAVE"
+        android:text="KUMPULKAN"
         android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
